@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ///Get the text value from the mNameField
                 String name = mNameField.getText().toString();
-                //Return toast to test name object
-                // Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
                 startStory(name);
             }
         });

@@ -17,15 +17,8 @@ public class Choice {
         return mText;
     }
 
-    public void setText(String text) {
-        mText = text;
-    }
-
     public int getNextPage() {
         return mNextPage;
     }
 
-    public void setNextPage(int nextPage) {
-        this.mNextPage = nextPage;
-    }
 }

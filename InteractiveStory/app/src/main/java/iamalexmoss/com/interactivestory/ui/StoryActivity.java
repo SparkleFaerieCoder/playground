@@ -48,13 +48,16 @@ public class StoryActivity extends Activity {
     }
 
     private void loadPage(int choice) {
+
+        //Set current page to choice
          mCurrentPage = mStory.getPage(choice);
 
-        //Setting the drawable for the image view based on the mCurrentPage id
+        //Set the drawable for the image view based on the mCurrentPage id
         Drawable drawable = getResources().getDrawable(mCurrentPage.getImageId());
         mImageView.setImageDrawable(drawable);
 
         String pageText = mCurrentPage.getText();
+
         //Will add the name if placeholder included. Won't add if no placeholder
         pageText = String.format(pageText, mName);
         mTextView.setText(pageText);
