@@ -1,4 +1,4 @@
-package iamalexmoss.com.interactivestory;
+package iamalexmoss.com.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import iamalexmoss.com.interactivestory.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 ///Get the text value from the mNameField
                 String name = mNameField.getText().toString();
                 //Return toast to test name object
-//                Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                // Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
                 startStory(name);
             }
         });
@@ -37,5 +38,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StoryActivity.class);
         intent.putExtra(getString(R.string.key_name), name);
         startActivity(intent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNameField.setText("");
     }
 }

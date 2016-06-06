@@ -1,11 +1,17 @@
-package iamalexmoss.com.interactivestory.model;
+package iamalexmoss.com.interactivestory.dataModel;
 
 /**
  * Created by amoss on 6/3/2016.
  */
 public class Choice {
     private String mText;
-    private int nextPage;
+    private int mNextPage;
+
+    //Constructor
+    public Choice(String text, int nextPage) {
+        mText = text;
+        mNextPage = nextPage;
+    }
 
     public String getText() {
         return mText;
@@ -16,10 +22,10 @@ public class Choice {
     }
 
     public int getNextPage() {
-        return nextPage;
+        return mNextPage;
     }
 
     public void setNextPage(int nextPage) {
-        this.nextPage = nextPage;
+        this.mNextPage = nextPage;
     }
 }
