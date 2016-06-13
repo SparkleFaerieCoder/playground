@@ -9,7 +9,7 @@ import iamalexmoss.com.stormy.R;
 /**
  * Created by amoss on 6/8/2016.
  */
-public class CurrentWeather {
+public class Current{
 
     //Variables
     private String mIcon;
@@ -18,6 +18,10 @@ public class CurrentWeather {
     private double mHumidity;
     private double mPrecipChance;
     private String mSummary;
+    private String mTimeZone;
+
+
+    //Getter and Setter Methods
 
     public String getTimeZone() {
         return mTimeZone;
@@ -27,10 +31,6 @@ public class CurrentWeather {
         mTimeZone = timeZone;
     }
 
-    private String mTimeZone;
-
-
-    //Getter and Setter Methods
     public String getIcon() {
         return mIcon;
     }
