@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xxhdpi"
+    format="7"
+    timestamp="51013181281901"
+    token="5387355633630783185"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="1994" />
+    <task
+        name="instant-run-dex"
+        duration="1036" />
+    <task
+        name="instant-run-transform"
+        duration="96" />
+    <task
+        name="verifier"
+        duration="22" />
+
+    <artifact
+        location="C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="50800835802345" >
+        <artifact
+            location="C:\Users\amoss\Desktop\playground\Stormy\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="51013181281901"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

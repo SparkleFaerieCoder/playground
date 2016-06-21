@@ -1,0 +1,2 @@
+CHANGED,C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\iamalexmoss\com\stormy\adapters\DailyAdapter.class
+CHANGED,C:\Users\amoss\Desktop\playground\Stormy\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\iamalexmoss\com\stormy\adapters\DailyAdapter$ViewHolder.class
